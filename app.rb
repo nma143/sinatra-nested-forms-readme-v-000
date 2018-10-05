@@ -5,7 +5,7 @@ require_relative 'models/course.rb'
 class App < Sinatra::Base
 
   get '/' do
-      erb :new
+      erb :create_student
   end
 
   post '/student' do
